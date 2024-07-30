@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.section p {
+  font-size: 25px;
+}
+
+.section > p {
+  text-shadow: 2px 2px #000;
+}
+
+.section h1 + p {
+  text-transform: uppercase;
+}
+
+.section h1 ~ p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a[href^="https"] {
+  color: red;
+}
+
+a[href^="/"] {
+  color: green;
+}
+
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: aquamarine;
+  text-shadow: 2px 2px red;
+  font-weight: 100;
+}
+
+h3,
+h4 {
+  font-size: 25px;
+  color: brown;
+}

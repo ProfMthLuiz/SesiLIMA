@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Diz ao navegador que o conteúdo da página está escrito em Portugues (Brasil). -->
+<html lang="pt-BR">
+  <!-- O <head> contém meta-informações sobre o documento, como o título, codificação de caracteres e outros elementos que não são exibidos diretamente na página -->
+  <head>
+    <!-- Informa ao navegador que o documento usa a codificação de caracteres UTF-8 -->
+    <meta charset="UTF-8" />
+
+    <!-- Faz com que a página seja exibida corretamente em diferentes tamanhos de tela, ajustando a largura da página para a largura da tela do dispositivo. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabulação</title>
+  </head>
+  <body>
+    <!-- Define uma tabela em HTML. É o contêiner principal para todos os outros elementos de uma tabela. -->
+    <table
+      border="1"
+      cellpadding="5"
+      cellspacing="5"
+      summary="Tabela de Usuários"
+      width="100%"
+    >
+      <!-- Fornece um título ou legenda para a tabela. Este elemento é colocado diretamente após a abertura da tag <table>. -->
+      <caption>
+        Exemplo de Tabela
+      </caption>
+      <!-- Agrupa o conteúdo de cabeçalho da tabela. Normalmente contém uma ou mais linhas de cabeçalho definidas com <tr> e <th>. -->
+      <thead>
+        <!-- Define uma linha na tabela. Pode ser usada dentro de <thead>, <tbody>, <tfoot> e <table>. -->
+        <tr align="left">
+          <!-- Define uma célula de cabeçalho em uma tabela. É usada dentro de uma linha <tr> e, geralmente, o texto dentro de <th> é exibido em negrito e centralizado. -->
+          <th align="center">Nome</th>
+          <th align="center">Idade</th>
+          <th align="center" colspan="2">País</th>
+        </tr>
+      </thead>
+      <!-- Agrupa o conteúdo principal da tabela, excluindo cabeçalhos (<thead>) e rodapés (<tfoot>). Contém uma ou mais linhas <tr>. -->
+      <tbody>
+        <tr>
+          <!--  Define uma célula padrão (não de cabeçalho) em uma tabela. É usada dentro de uma linha <tr>. -->
+          <td rowspan="3">Ana</td>
+          <td>28</td>
+          <td>Brasil</td>
+        </tr>
+        <tr>
+          <td>João</td>
+          <td>35</td>
+          <td>Portugal</td>
+        </tr>
+      </tbody>
+      <!-- Agrupa o conteúdo de rodapé da tabela. Normalmente contém uma ou mais linhas definidas com <tr> e <td>, e é usado para resumir o conteúdo da tabela ou fornecer informações adicionais. -->
+      <tfoot>
+        <tr>
+          <td colspan="3">Fim da tabela</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

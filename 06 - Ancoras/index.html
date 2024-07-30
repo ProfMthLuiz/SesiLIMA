@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- Diz ao navegador que o conteúdo da página está escrito em Portugues (Brasil). -->
+<html lang="pt-BR">
+  <!-- O <head> contém meta-informações sobre o documento, como o título, codificação de caracteres e outros elementos que não são exibidos diretamente na página -->
+  <head>
+    <!-- Informa ao navegador que o documento usa a codificação de caracteres UTF-8 -->
+    <meta charset="UTF-8" />
+
+    <!-- Faz com que a página seja exibida corretamente em diferentes tamanhos de tela, ajustando a largura da página para a largura da tela do dispositivo. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <style>
+      #novidades {
+        width: 100vw;
+        height: 100vh;
+        background-color: red;
+      }
+
+      #maisVendidos {
+        width: 100vw;
+        height: 100vh;
+        background-color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="sobre.html">Sobre</a>
+    <a href="https://www.google.com/" target="_blank">Google</a>
+    <a href="https://github.com/ProfMthLuiz" target="_blank">Github</a>
+    <a href="#maisVendidos">Mais vendidos</a>
+    <a href="./download/box_model.png" download="boxModelImage.png">DOWNLOAD</a>
+    <section id="novidades"><p>Novidades</p></section>
+    <section id="maisVendidos"><p>Mais Vendidos</p></section>
+    <a href="#novidades">Novidades</a>
+  </body>
+</html>

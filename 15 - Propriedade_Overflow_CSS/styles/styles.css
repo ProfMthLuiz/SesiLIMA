@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: darkgrey;
+  height: 200px;
+  width: 200px;
+  overflow: hidden; /* visible  hidden  scroll  auto */
+}
+
+.container p {
+  font-size: 25px;
+}

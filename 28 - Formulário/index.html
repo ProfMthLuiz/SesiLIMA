@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- Diz ao navegador que o conteúdo da página está escrito em Portugues (Brasil). -->
+<html lang="pt-BR">
+  <!-- O <head> contém meta-informações sobre o documento, como o título, codificação de caracteres e outros elementos que não são exibidos diretamente na página -->
+  <head>
+    <!-- Informa ao navegador que o documento usa a codificação de caracteres UTF-8 -->
+    <meta charset="UTF-8" />
+
+    <!-- Faz com que a página seja exibida corretamente em diferentes tamanhos de tela, ajustando a largura da página para a largura da tela do dispositivo. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <!-- Define um formulário HTML que permite a entrada de dados do usuário. -->
+    <form action="#" method="post">
+      <h2>Formulário de Cadastro</h2>
+
+      <!--  Agrupa campos relacionados dentro do formulário para organização semântica. -->
+      <fieldset>
+        <!-- Fornece um título ou descrição para o grupo de campos dentro do <fieldset>. -->
+        <legend>Dados Pessoais</legend>
+
+        <!-- Elemento genérico para agrupar conteúdo dentro do formulário. Não possui significado semântico especial além de agrupar visualmente elementos. -->
+        <div>
+          <!-- Associa um rótulo descritivo a um elemento de formulário (como <input>, <select>, <textarea>) usando o atributo for. -->
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+        </div>
+
+        <div>
+          <!-- Elemento para entrada de dados do usuário. -->
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div>
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" required />
+        </div>
+
+        <div>
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" />
+        </div>
+
+        <div>
+          <label for="data_nascimento">Data de Nascimento:</label>
+          <input type="date" id="data_nascimento" name="data_nascimento" />
+        </div>
+
+        <div>
+          <label for="sexo">Sexo:</label>
+
+          <!-- Cria um menu suspenso (dropdown) para selecionar uma opção entre várias. -->
+          <select id="sexo" name="sexo">
+            <!-- Define uma opção dentro de um menu suspenso (<select>). Cada <option> pode ter um valor associado que será enviado quando o formulário for submetido. -->
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+            <option value="nao_informar">Prefiro não informar</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Localização</legend>
+
+        <div>
+          <label for="city">Cidade:</label>
+          <div>
+            <!-- Permite ao usuário selecionar apenas uma opção entre várias. -->
+            <input
+              type="radio"
+              id="NovaOdessa"
+              name="city"
+              value="NovaOdessa"
+              required
+            />
+            <label for="NovaOdessa">Nova Odessa</label>
+            <input type="radio" id="Sumare" name="city" value="Sumare" />
+            <label for="Sumare">Sumare</label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Interesses</legend>
+
+        <div>
+          <label for="interesses">Selecione seus interesses:</label>
+          <!-- Permite ao usuário selecionar várias opções entre várias. -->
+          <input
+            type="checkbox"
+            id="interesse1"
+            name="interesses"
+            value="tecnologia"
+          />
+          <label for="interesse1">Tecnologia</label>
+          <input
+            type="checkbox"
+            id="interesse2"
+            name="interesses"
+            value="esportes"
+          />
+          <label for="interesse2">Esportes</label>
+          <input
+            type="checkbox"
+            id="interesse3"
+            name="interesses"
+            value="musica"
+          />
+          <label for="interesse3">Música</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Mensagem</legend>
+
+        <div>
+          <label for="mensagem">Mensagem:</label>
+
+          <!-- Permite entrada de texto multilinha pelo usuário, com um número definido de linhas através do atributo rows. -->
+          <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+        </div>
+      </fieldset>
+
+      <div>
+        <!-- Cria um botão dentro do formulário, usado aqui para submeter o formulário quando clicado com type="submit". -->
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </body>
+</html>
