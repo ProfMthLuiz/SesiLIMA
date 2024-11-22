@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  height: 100vh;
+  background-color: red;
+  background-image: url("../images/image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cards {
+  height: 500px;
+  width: 100%;
+  background-color: bisque;
+}
