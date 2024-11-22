@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.cards {
+  height: 100vh;
+  background-color: chocolate;
+
+  display: flex;
+  flex-direction: row; /* row  row-reverse  column  column-reverse */
+  flex-wrap: wrap; /* nowrap  wrap  wrap-reverse */
+  justify-content: space-evenly; /* flex-start  flex-end  center  space-between  space-around  space-evenly */
+  align-items: center; /* stretch  flex-start  flex-end  center  baseline */
+  align-content: center; /* flex-start  flex-end  center  space-between  space-around  stretch; */
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+}
+
+.color1 {
+  background-color: black;
+  order: 2;
+
+  /* flex-grow: 1; */
+}
+
+.color2 {
+  background-color: chartreuse;
+  order: 1;
+
+  /* flex-grow: 2; */
+
+  /* Para apresentar o exemplo do align-self, comente a linha de código do align-content */
+  align-self: flex-end; /* auto  flex-start  flex-end  center  baseline  stretch; */
+}
+
+.color3 {
+  background-color: burlywood;
+  order: 3;
+
+  /* flex-grow: 1; */
+}

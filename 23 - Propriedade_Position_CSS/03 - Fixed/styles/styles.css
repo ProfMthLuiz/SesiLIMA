@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 120vh;
+  background-color: antiquewhite;
+}
+
+.fixed {
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  position: fixed;
+  top: 20px;
+  right: 10px;
+}

@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 120vh;
+  background-color: antiquewhite;
+}
+
+.static {
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  position: static;
+}
