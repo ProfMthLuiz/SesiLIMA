@@ -188,8 +188,200 @@
       / styles/styles.css
 
 / 22 - Centralizar_Containers_CSS
+      / center_01
+             / index.html
+             / styles/styles.css
+
+      / center_02
+             / index.html
+             / styles/styles.css
+
+      / center_03
+             / index.html
+             / styles/styles.css
+
+      / center_04
+             / index.html
+             / styles/styles.css
+
+/ 23 - Propriedade_Position_CSS
+      / 01 - Static
+             / index.html
+             / styles/styles.css
+
+      / 02 - Sticky
+             / index.html
+             / styles/styles.css
+
+      / 03 - Fixed
+             / index.html
+             / styles/styles.css
+
+      / 04 - Relative
+             / index.html
+             / styles/styles.css
+
+      / 05 - Absolute
+             / index.html
+             / styles/styles.css
+
+/ 24 - PseudoClasse_CSS
+      / 01 - Hover
+             / index.html
+             / styles/styles.css
+
+      / 02 - Focus
+             / index.html
+             / styles/styles.css
+
+      / 03 - Active
+             / index.html
+             / styles/styles.css
+
+      / 04 - Visited
+             / index.html
+             / styles/styles.css
+
+      / 05 - FirstChild
+             / index.html
+             / styles/styles.css
+
+      / 06 - LastChild
+             / index.html
+             / styles/styles.css
+
+      / 07 - NthChild
+             / index.html
+             / styles/styles.css
+
+      / 08 - NthType
+             / index.html
+             / styles/styles.css
+
+      / 09 - Not
+             / index.html
+             / styles/styles.css
+
+      / 10 - Checked
+             / index.html
+             / styles/styles.css
+
+      / 11 - Before
+             / index.html
+             / styles/styles.css
+
+      / 12 - After
+             / index.html
+             / styles/styles.css
+
+/ 25 - Propriedade_Transform_CSS
+      / ARRUMAR
+      / 01 - Matrix
+             / index.html
+             / styles/styles.css
+
+      / 02 - Translate
+             / index.html
+             / styles/styles.css
+
+      / 03 - TranslateX
+             / index.html
+             / styles/styles.css
+
+/ 26 - Propriedade_Transition_CSS
+      / ARRUMAR
+
+/ 27 - Texto_Sobre_Imagem
+      / index.html
+      / images/(img.jpg, imgBack.jpg)
+      / styles/styles.css
+
+/ 28 - Texto_Imagem_Fundo
+      / index.html
+      / images/wallp.jpg
+      / styles/styles.css
+      / fonts/Pacifico-Regular.ttf
+
+/ 29 - Tags_Formulário
+      / index.html
+
+/ 30 - Buttons
+      / button_1
+             / index.html
+             / styles/styles.css
+
+      / button_2
+             / index.html
+             / styles/styles.css
+
+      / button_3
+             / index.html
+             / styles/styles.css
+
+      / button_4
+             / index.html
+             / styles/styles.css
+
+      / button_5
+             / index.html
+             / styles/styles.css
+
+/ 31 - Media_CSS
       / index.html
       / styles/styles.css
+
+/ 32 - Animations
+      / 01 - Image_Background
+             / index.html
+             / images/(image1.jpg, image2.jpg, image3.jpg, image4.jpg)
+             / styles/styles.css
+
+      / 02 - Image_Mover
+             / index.html
+             / images/foguete.png
+             / styles/styles.css
+
+      / 03 - Image_Pulsar
+             / index.html
+             / images/foguete.png
+             / styles/styles.css
+
+      / 04 - Leaves
+             / index.html
+             / images/(bolaDeNatal.png, bonecoDeNeve.png, papaiNoel.png)
+             / styles/styles.css
+
+      / 05 - Icones
+             / index.html
+             / styles/styles.css
+
+      / 06 - Carrousel
+             / index.html
+             / images/(gallery1.jpg, gallery2.jpg, gallery3.jpg, gallery4.jpg, gallery5.jpg, gallery6.jpg, gallery7.jpg, gallery8.jpg)
+             / styles/styles.css
+
+      / 08 - Carrousel3D
+             / index.html
+             / images/(gallery1.jpg, gallery2.jpg, gallery3.jpg, gallery4.jpg, gallery5.jpg, gallery6.jpg, gallery7.jpg, gallery8.jpg, gallery9.jpg, gallery10.jpg)
+             / styles/styles.css
+
+
+/ 33 - clipPath
+      / CRIAR MAIS EXEMPLOS
+      /
+
+/ 34 - GalleryHexagon
+      /
+
+/ 35 - Cards
+      /
+
+/ 36 - ImageShadow
+      /
+
+/ 37 - Formulários
+      / ARRUMAR
+
 
 
 
