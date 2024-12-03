@@ -4,87 +4,24 @@
   margin: 0;
 }
 
-body {
-  width: 100%;
+.container {
+  height: 100vh;
   display: flex;
+  gap: 30px;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  perspective: 1000px; /* Adiciona perspectiva */
+  flex-direction: row;
 }
 
-.rotacionar {
+.card {
   width: 300px;
   height: 450px;
-  margin: 20px;
   background-image: url("../images/01.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.rotacionar:hover {
-  transform: rotate(90deg);
-
-  /*
-    transform: rotateX(25deg);
-    transform: rotateZ(25deg);
-  */
-}
-
-.escalar {
-  width: 300px;
-  height: 450px;
-  margin: 20px;
-  background-image: url("../images/02.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.escalar:hover {
-  transform: scale(1.5);
-}
-
-.translate {
-  width: 300px;
-  height: 450px;
-  margin: 20px;
-  background-image: url("../images/03.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.translate:hover {
-  transform: translate(50px, 100px);
-}
-
-.inclinacao {
-  width: 300px;
-  height: 450px;
-  margin: 20px;
-  background-image: url("../images/04.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.inclinacao:hover {
-  transform: skew(20deg, 10deg);
-}
-
-.translate-3d {
-  width: 300px;
-  height: 450px;
-  margin: 20px;
-  background-image: url("../images/05.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  transform-style: preserve-3d; /* Preserva o contexto 3D */
-}
-
-.translate-3d:hover {
-  transform: translate3d(50px, 100px, 200px);
+.card:hover {
+  transform: translateX(100px);
 }

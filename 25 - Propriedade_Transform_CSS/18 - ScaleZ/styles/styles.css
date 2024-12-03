@@ -7,10 +7,9 @@
 .container {
   height: 100vh;
   display: flex;
-  gap: 30px;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  perspective: 8000px; 
 }
 
 .card {
@@ -20,16 +19,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  transform-style: preserve-3d; 
+  margin: 50px auto;
+  box-shadow: 2px 2px 10px #000;
 }
 
-.card:hover:nth-child(1) {
-  transform: translate(-50px, 0px);
-}
-
-.card:hover:nth-child(2) {
-  transform: translate(0px, 50px);
-}
-
-.card:hover:nth-child(3) {
-  transform: translate(50px, 50px);
+.card:hover {
+  transform: scaleZ(0.5) translateZ(1000px); 
 }

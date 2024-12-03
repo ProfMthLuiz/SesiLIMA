@@ -22,14 +22,6 @@
   background-position: center;
 }
 
-.card:hover:nth-child(1) {
-  transform: translate(-50px, 0px);
-}
-
-.card:hover:nth-child(2) {
-  transform: translate(0px, 50px);
-}
-
-.card:hover:nth-child(3) {
-  transform: translate(50px, 50px);
+.card:hover {
+  transform: scaleX(1.5);
 }
