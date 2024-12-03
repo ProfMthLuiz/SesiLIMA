@@ -365,19 +365,34 @@
              / images/(gallery1.jpg, gallery2.jpg, gallery3.jpg, gallery4.jpg, gallery5.jpg, gallery6.jpg, gallery7.jpg, gallery8.jpg, gallery9.jpg, gallery10.jpg)
              / styles/styles.css
 
-
 / 33 - clipPath
       / CRIAR MAIS EXEMPLOS
       /
 
 / 34 - GalleryHexagon
-      /
+      / index.html
+      / images/(gallery1.jpg, gallery2.jpg, gallery3.jpg, gallery4.jpg, gallery5.jpg, gallery6.jpg, gallery7.jpg, gallery8.jpg, gallery9.jpg, gallery10.jpg)
+      / styles/styles.css
 
 / 35 - Cards
-      /
+      / card3D_01
+             / index.html
+             / images/(faviconGragas.png, Gragas_1.jpg, Gragas_2.png, LOL_Logo.png)
+             / styles/styles.css
+
+      / cardBordRGB_01
+             / index.html
+             / styles/styles.css
+
+      / cardProduct_01
+             / index.html
+             / images/tenis.png
+             / styles/styles.css
 
 / 36 - ImageShadow
-      /
+      / index.html
+      / images/wallpaper.png
+      / styles/styles.css
 
 / 37 - Formulários
       / ARRUMAR
