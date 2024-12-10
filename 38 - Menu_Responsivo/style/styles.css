@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  width: 100%;
+  padding: 10px 50px;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu img {
+  width: 180px;
+  height: 46px;
+}
+
+.menu nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.menu label i {
+  color: white;
+  font-size: 30px;
+  display: none;
+}
+
+.menu input {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .listas {
+    width: 100%;
+    height: 0;
+
+    background-color: rgba(0, 0, 0, 0.6);
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .listas a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    opacity: 0;
+    transition: 0.7s ease;
+    transform: translateY(-50px);
+  }
+
+  .menu label i {
+    display: inline-flex;
+  }
+
+  .menu .icons .bx-x {
+    display: none;
+  }
+
+  .menu input:checked ~ .icons .bx-menu {
+    display: none;
+  }
+
+  .menu input:checked ~ .icons .bx-x {
+    display: block;
+  }
+
+  .menu input:checked ~ .listas {
+    height: auto;
+    padding: 10px 20px 40px 20px;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .menu #check:checked ~ .listas a {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
